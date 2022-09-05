@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .debug header{
-    background-color: aqua ;
+    background-color:aqua ;
 }
 .debug .background{
     background-color: blue;
@@ -16,19 +16,17 @@ header{
     padding-top: 1rem;
     padding-bottom: 1rem;
     
-    
 }
 .container{
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
-    position: relative;
-    
 }
 .row{
     display: flex;
-    
+    justify-content: space-between;
 }
+
 .col_1{
     width: calc((100% / 12)*1);
     border: 1px solid;
@@ -58,17 +56,13 @@ header{
     border: 1px solid;
     background-color: darkgreen;
 }
-.debug .download{
+.pink{
+    height: 200px;
     background-color: pink;
-    height: 100px;
-    margin: 4rem 2rem;
+    margin-top: 1rem;
 }
-.download{
-    position: absolute;
-    top: 80px;
-    left: 500px;
-    width: 500px;
-}
+
+
 .space, .easy, .fandom{
     margin-top: 1rem;
 }
