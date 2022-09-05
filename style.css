@@ -1,0 +1,35 @@
+/*#region utilities
+
+#endregion utilities*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("./img/bg2_1920x1200.jpg");
+    height: 100vh;
+    padding-bottom: 1rem;
+    
+    
+}
+.container{
+    width: 80%;
+    
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+.row{
+    display: flex;
+    
+}
+.col_3{
+    width: calc((100% / 12)*3);
+    border: 1px solid;
+}
+.col_6{
+    width: calc((100% / 12)*6);
+    text-align: center;
+    border: 1px solid;
+}
